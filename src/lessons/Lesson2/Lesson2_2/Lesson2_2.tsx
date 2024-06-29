@@ -5,6 +5,7 @@ const Lesson2_2 = () => {
 
   const [person, setPerson] = useState("ShiCode");
   const [bio, setBio] = useState<string | null>(null);
+  const [count, setCount] = useState(0);
 
   useEffect(()=>{
     let ignore = false;
@@ -16,10 +17,13 @@ const Lesson2_2 = () => {
       }
     }
     startFetching();
+
+// setCount(count+1);
+
     return()=>{
       ignore = true;
     }
-  },[person])
+  },[person,count])
   return (
     <div>
       <select onChange={(e)=> setPerson(e.target.value)} value={person}>
