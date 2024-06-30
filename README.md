@@ -35,14 +35,14 @@
 | 25. | 【発展】useSWR()を使ったキャッシュデータフェッチング |
 
 </details>
-<!-- <details>
-<summary>セクション4: useRef()</summary> -->
+<details>
+<summary>セクション4: useRef()</summary>
 
-<!-- | NO | 内容 |
+| NO | 内容 |
 | ---- | ---- |
 | 26. | useRef() |
 | 27. | useRefでDOMを取得して画像スクロールを実装してみよう |
 | 28. | useRef()を使って余計な再レンダリングを防ぐ方法 |
-| 29. | forwardRef()で別のコンポーネントの DOM ノードにアクセスする | -->
+| 29. | forwardRef()で別のコンポーネントの DOM ノードにアクセスする |
 
-<!-- </details> -->
+</details>
