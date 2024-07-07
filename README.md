@@ -46,3 +46,26 @@
 | 29. | forwardRef()で別のコンポーネントの DOM ノードにアクセスする |
 
 </details>
+<details>
+<summary>セクション5: </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+| . |  |
+
+</details>
+<details>
+<summary>セクション6: useCallback(), useMemo(), React.memo() </summary>
+
+| NO | 内容 |
+| ---- | ---- |
+| 36. | 不要な再レンダリングが起きるタイミング |
+| 37. | React.memo() |
+| 38. | 何でもかんでもメモ化する施策は得策ではない |
+| 39. | React Developer Toolsの導入とその使い方 |
+| 40. | レンダリングのタイミングを推測して確認してみよう |
+| 41. | useCallback() |
+| 42. | パフォーマンスチューニングのためのリファクタリング |
+| 43. | useMemo() |
+
+</details>
