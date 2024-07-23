@@ -1,9 +1,22 @@
-const Thread = () => {
-  const handleSubmit = async () => {};
+import { useRef } from "react";
+import { Message } from "./Lesson6_1";
+
+const Thread = ({ messages, sendMessage }: { messages: Message[]; sendMessage: (formData: FormData) => Promise<void> }) => {
+
+  const fromRef = useRef<HTMLFormElement>(null);
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(fromRef.current!);
+    await sendMessage(formData);
+    fromRef.current?.reset();
+  };
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      {messages.map((message) => (
+        <div key={message.key}>{message.text}</div>
+      ))}
+      <form onSubmit={handleSubmit} ref={fromRef}>
         <input
           type="text"
           name="message"

@@ -47,7 +47,7 @@
 
 </details>
 <details>
-<summary>セクション5: </summary>
+<summary>セクション5: useContext()</summary>
 
 | NO | 内容 |
 | ---- | ---- |
@@ -72,5 +72,21 @@
 | 41. | useCallback() |
 | 42. | パフォーマンスチューニングのためのリファクタリング |
 | 43. | useMemo() |
+
+</details>
+<details>
+<summary>セクション7: useOptimistic()</summary>
+
+| NO | 内容 |
+| ---- | ---- |
+| 44. | Canary および experimentalチャンネルでの使用について |
+| 45. | useOptimistic() |
+| 46. | 簡易スレッドアプリを作ってみよう |
+| 47. | formDataを利用してスレッド追加してみよう |
+<!-- | 48. | canary-installをしてuseOptimisticを利用しよう |
+| 49. | react-canary-installコピペ用 |
+| 50. | react-canary-installコピペ用 |
+| 51. | Server Actionsを利用してuseOptimisticを動かそう |
+| 52. | SNSのいいね機能における利用例 | -->
 
 </details>
