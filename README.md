@@ -83,10 +83,10 @@
 | 45. | useOptimistic() |
 | 46. | 簡易スレッドアプリを作ってみよう |
 | 47. | formDataを利用してスレッド追加してみよう |
-<!-- | 48. | canary-installをしてuseOptimisticを利用しよう |
+| 48. | canary-installをしてuseOptimisticを利用しよう |
 | 49. | react-canary-installコピペ用 |
 | 50. | react-canary-installコピペ用 |
 | 51. | Server Actionsを利用してuseOptimisticを動かそう |
-| 52. | SNSのいいね機能における利用例 | -->
+| 52. | SNSのいいね機能における利用例 |
 
 </details>
