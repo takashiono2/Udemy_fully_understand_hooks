@@ -1,13 +1,18 @@
-const SlowList = function SlowList({ text }: { text: string }) {
-  // Log once. The actual slowdown is inside SlowItem.
-  console.log("[ARTIFICIALLY SLOW] Rendering 200 <SlowItem />");
+import { memo } from "react";
 
-  const items = [];
-  for (let i = 0; i < 200; i++) {
-    items.push(<SlowItem key={i} text={text} />);
+const SlowList = memo(
+  function SlowList({ text }: { text: string }) {
+    // Log once. The actual slowdown is inside SlowItem.
+    console.log("[ARTIFICIALLY SLOW] Rendering 200 <SlowItem />");
+
+    const items = [];
+    for (let i = 0; i < 200; i++) {
+      items.push(<SlowItem key={i} text={text} />);
+    }
+    return <ul className="items">{items}</ul>;
   }
-  return <ul className="items">{items}</ul>;
-};
+);
+
 
 function SlowItem({ text }: { text: string }) {
   const startTime = performance.now();

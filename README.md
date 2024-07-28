@@ -90,7 +90,8 @@
 | 52. | SNSのいいね機能における利用例 |
 
 </details>
-<summary>セクション8: </summary>
+<details>
+<summary>セクション8: useTransition()</summary>
 
 | NO | 内容 |
 | ---- | ---- |
@@ -98,8 +99,20 @@
 | 54. | UIノンブロッキング操作を体感してみよう |
 | 55. | UIノンブロッキング操作を体感してみよう |
 | 56. | ページネーション切替えにおけるuseTransitionの使い方 |
-<!-- | 57. | 【補足】Suspenseのfallbackについて |
+| 57. | 【補足】Suspenseのfallbackについて |
 | 58. | ページネーション切替えにおけるuseTransitionの使い方 |
-| 59. | 【発展】Suspenseを使う場合のuseTransitionの使い方 | -->
+| 59. | 【発展】Suspenseを使う場合のuseTransitionの使い方 |
+
+</details>
+<details>
+<summary>セクション9: useDeferredValue()</summary>
+
+| NO | 内容 |
+| ---- | ---- |
+| 60. | useDeferredValue() |
+<!-- | 61. | 値を遅延させてアルバム検索のUXを向上させよう |
+| 62. | 検索結果が重い場合のパフォーマンスチューニング |
+| 63. | なぜ遅延された値を使うと余計な再レンダリングが発生しないのか |
+| 64. | inputの状態更新にuseTransitionの使用は推奨されていない | -->
 
 </details>

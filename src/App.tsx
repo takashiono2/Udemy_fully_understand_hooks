@@ -1,5 +1,5 @@
 import "./App.css";
-import Lesson7_2 from "./lessons/Lesson7/Lesson7_2/Lesson7_2";
+import Lesson8_2 from "./lessons/Lesson8/Lesson8_2/Lesson8_2";
 
 function App() {
   return (
@@ -19,7 +19,10 @@ function App() {
       {/* <Lesson5_3 /> */}
       {/* <Lesson6_1 /> */}
       {/* <Lesson7_1 /> */}
-      <Lesson7_2 />
+      {/* <Lesson7_2 /> */}
+      {/* <Lesson7_3 /> */}
+      {/* <Lesson8_1 /> */}
+      <Lesson8_2 />
       {/* ... */}
     </div>
   );
